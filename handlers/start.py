@@ -9,7 +9,6 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nCongratulations! Now Trixie can play music in the voice chats of Telegram Groups & Channels.
