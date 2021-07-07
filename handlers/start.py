@@ -9,9 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name}!
-\nCongratulations! Now Trixie can play music in the voice chats of Telegram Groups & Channels.
+    await message.reply_text(Congratulations! Now Trixie can play music in the voice chats of Telegram Groups & Channels.
  </b>""",
       
        
